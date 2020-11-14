@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/food">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/activity_main_menu_iv"
+            android:layout_width="@dimen/dp220w"
+            android:layout_height="@dimen/dp350h"
+            android:src="@drawable/white_bg"
+            android:layout_marginTop="@dimen/dp120h"
+            android:layout_marginStart="@dimen/dp50w"
+            android:layout_marginLeft="@dimen/dp50w" />
+
+        <TextView
+            android:id="@+id/activity_main_menu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food"
+            android:layout_marginTop="@dimen/dp140h"
+            android:layout_marginStart="@dimen/dp100w"
+            android:layout_marginLeft="@dimen/dp50w"
+            android:textColor="@color/red"
+            android:textSize="@dimen/sp50"
+            android:textStyle="bold"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/activity_main_menu_btn_mail"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="@dimen/dp60h"
+           android:layout_below="@id/activity_main_menu_tv"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/red"
+            android:text="@string/sign_with_email"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:drawableLeft="@drawable/ic_baseline_mail_24" />
+
+        <Button
+            android:id="@+id/activity_main_menu_btn_phone"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="@dimen/dp60h"
+            android:layout_below="@id/activity_main_menu_btn_mail"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/blue"
+            android:text="@string/sign_with_phone"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:layout_marginTop="@dimen/dp20h"/>
+
+
+        <TextView
+            android:id="@+id/activity_main_menu_tv_or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/or"
+            android:textAllCaps="true"
+            android:layout_below="@id/activity_main_menu_btn_phone"
+            android:layout_marginStart="@dimen/dp140w"
+            android:layout_marginLeft="@dimen/dp13w"
+            android:layout_marginTop="@dimen/dp14h"
+            android:textSize="@dimen/sp15"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/activity_main_menu_btn_sign"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="@dimen/dp60h"
+           android:layout_below="@id/activity_main_menu_tv_or"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/mediumGreen"
+            android:text="@string/sign_up"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:layout_marginTop="@dimen/dp10h"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

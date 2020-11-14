@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/back3">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp220w"
+        android:layout_height="@dimen/dp350h"
+        android:layout_marginTop="@dimen/dp120h"
+        android:layout_marginStart="@dimen/dp50w"
+        android:layout_marginLeft="@dimen/dp50w"
+        android:background="@drawable/white_bg">
+
+
+        <TextView
+            android:id="@+id/activity_choose_one_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:text="@string/offer"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15"
+            android:fontFamily="@font/janna"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/activity_choose_one_btn_chef"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="@dimen/dp60h"
+           android:layout_below="@id/activity_choose_one_tv"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/orange"
+            android:text="@string/cc"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dp20h" />
+
+        <Button
+            android:id="@+id/activity_choose_one_btn_customer"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="@dimen/dp60h"
+             android:layout_below="@id/activity_choose_one_btn_chef"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/orange"
+            android:text="@string/connect_as_customer"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:layout_marginTop="@dimen/dp20h"
+            android:layout_centerInParent="true"/>
+
+        <Button
+            android:id="@+id/activity_choose_one_btn_delivery"
+            android:layout_width="@dimen/dp200w"
+            android:layout_height="wrap_content"
+           android:layout_below="@id/activity_choose_one_btn_customer"
+            android:layout_marginStart="@dimen/dp60w"
+            android:layout_marginLeft="@dimen/dp60w"
+            android:backgroundTint="@color/orange"
+            android:text="@string/delivery"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp15"
+            android:layout_marginTop="@dimen/dp10h"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

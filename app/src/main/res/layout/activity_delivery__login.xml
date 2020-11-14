@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="@dimen/dp280w"
+        android:layout_height="@dimen/dp460h"
+        android:id="@+id/linearlayout"
+        android:background="@drawable/white_bg"
+        android:padding="15dp"
+        android:layout_marginTop="@dimen/dp50h"
+        android:layout_marginStart="@dimen/dp22w"
+        android:layout_marginLeft="@dimen/dp22w"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Demail"
+            android:layout_marginTop="@dimen/dp5h"
+            android:paddingBottom="@dimen/dp10h"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/mail_bll"
+            android:drawablePadding="10dp"
+            android:hint="@string/email_Id"
+            android:textColorHint="@color/black"
+            android:inputType="textEmailAddress"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dpassword"
+            android:layout_marginTop="@dimen/dp5h"
+            android:paddingBottom="@dimen/dp5h"
+            app:passwordToggleEnabled="true"/>
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dforgotpass"
+            android:text="@string/forget_password"
+            android:textSize="@dimen/sp16"
+            android:textColor="@color/blue"
+            android:layout_marginLeft="@dimen/dp100w"/>
+
+        <Button
+            android:id="@+id/loginnbtn"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40h"
+            android:background="@drawable/btn_bg_green"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18"
+            android:textAllCaps="true"
+            android:layout_marginTop="@dimen/dp20h"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/don_t_ave_an_account_create"
+            android:id="@+id/donot"
+            android:layout_marginTop="@dimen/dp10h"
+            android:textColor="#090909"
+            android:textSize="@dimen/sp16"
+            android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp10h"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/dp10w"
+            android:layout_marginLeft="@dimen/dp10w">
+
+            <TableRow
+                android:id="@+id/hr"
+                android:layout_width="@dimen/dp100w"
+                android:layout_height="@dimen/dp1h"
+                android:layout_marginTop="@dimen/dp20h"
+                android:background="@color/black"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/OR"
+                android:text="@string/or1"
+                android:layout_marginTop="@dimen/dp13h"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp" />
+
+            <TableRow
+                android:id="@+id/hr1"
+                android:layout_width="@dimen/dp105w"
+                android:layout_height="@dimen/dp1h"
+                android:layout_marginTop="@dimen/dp20h"
+                android:background="@color/black"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/signphone"
+            android:text="SignIn With"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/dp11h"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18"/>
+
+        <Button
+            android:layout_width="@dimen/dp105w"
+            android:layout_height="wrap_content"
+            android:id="@+id/Dbtnphone"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_bg_blue"
+            android:text="@string/phonee"
+            android:layout_marginTop="@dimen/dp13h"
+            android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</LinearLayout>
