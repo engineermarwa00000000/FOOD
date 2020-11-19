@@ -52,7 +52,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/Emaillid"
+                android:id="@+id/Emailid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp11h">
@@ -104,7 +104,7 @@
                 <com.hbb20.CountryCodePicker
                     android:layout_width="@dimen/dp120w"
                     android:layout_height="match_parent"
-                    android:id="@+id/CtryCode">
+                    android:id="@+id/ctrycode">
 
                 </com.hbb20.CountryCodePicker>
 
@@ -172,7 +172,7 @@
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/Statee"
+                android:id="@+id/State"
                 android:layout_marginTop="@dimen/dp5h"
                 android:entries="@array/State"/>
 
@@ -183,13 +183,13 @@
                 android:text="@string/city"/>
 
             <Spinner
-                android:id="@+id/city"
+                android:id="@+id/City"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp5h"/>
 
             <Button
-                android:id="@+id/btn_SignUpp"
+                android:id="@+id/Signupp"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp40h"
                 android:layout_marginTop="@dimen/dp20h"
@@ -255,7 +255,7 @@
                 android:orientation="horizontal"/>
 
             <Button
-                android:id="@+id/email"
+                android:id="@+id/emaillid"
                 android:layout_width="@dimen/dp95w"
                 android:layout_height="@dimen/dp40h"
                 android:layout_marginLeft="@dimen/dp15w"
@@ -271,7 +271,7 @@
                 android:layout_height="@dimen/dp40h"
                 android:layout_marginLeft="@dimen/dp30w"
                 android:layout_marginRight="@dimen/dp20w"
-                android:id="@+id/phone"
+                android:id="@+id/Phonenumber"
                 android:background="@drawable/btn_bg_blue"
                 android:drawableLeft="@drawable/ic_baseline_local_phone_24"
                 android:drawablePadding="5dp"

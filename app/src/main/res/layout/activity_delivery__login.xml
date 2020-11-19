@@ -61,7 +61,7 @@
             android:layout_marginLeft="@dimen/dp100w"/>
 
         <Button
-            android:id="@+id/loginnbtn"
+            android:id="@+id/Loginbtn"
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp40h"
             android:background="@drawable/btn_bg_green"

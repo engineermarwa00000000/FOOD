@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "920418027052",
-    "firebase_url": "https://food-e672e.firebaseio.com",
-    "project_id": "food-e672e",
-    "storage_bucket": "food-e672e.appspot.com"
+    "project_number": "202819915492",
+    "firebase_url": "https://foodon-c34f7.firebaseio.com",
+    "project_id": "foodon-c34f7",
+    "storage_bucket": "foodon-c34f7.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:920418027052:android:773eef34b88b8526183389",
+        "mobilesdk_app_id": "1:202819915492:android:9e815f25cca1082e4866f1",
         "android_client_info": {
-          "package_name": "com.example.food"
+          "package_name": "android.marwa.foodon"
         }
       },
       "oauth_client": [
         {
-          "client_id": "920418027052-o7811l7vn65c7sjeikeeisfvu6pv6q0p.apps.googleusercontent.com",
+          "client_id": "202819915492-fe68dgikq1f41oarq7955obqgs77rgnj.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.food",
+            "package_name": "android.marwa.foodon",
             "certificate_hash": "0b52957f119a78cdacda6ec1c31cd17b946ed843"
           }
         },
         {
-          "client_id": "920418027052-ovlp2dbc4ef4b0cm6t5t3csv00gu46e1.apps.googleusercontent.com",
+          "client_id": "202819915492-q5bgu73v40irrpv2bl0m3uot6coj70h5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCS3vUx7FNLZxJQTSmVCISmLbCNdwDYegs"
+          "current_key": "AIzaSyAe1R5lXuH1rrVuOPba3_g1yP5XVoCP_3U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "920418027052-ovlp2dbc4ef4b0cm6t5t3csv00gu46e1.apps.googleusercontent.com",
+              "client_id": "202819915492-q5bgu73v40irrpv2bl0m3uot6coj70h5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

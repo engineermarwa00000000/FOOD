@@ -67,7 +67,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/password"
+                android:id="@+id/Password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp11h"
@@ -110,7 +110,7 @@
 
 
                 <com.google.android.material.textfield.TextInputLayout
-                    android:id="@+id/Mobilenomber"
+                    android:id="@+id/Mobilenumber"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
@@ -123,7 +123,7 @@
             </LinearLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/LocalAddress"
+                android:id="@+id/Localaddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:errorEnabled="true"
@@ -184,13 +184,13 @@
                 android:text="@string/city"/>
 
             <Spinner
-                android:id="@+id/cities"
+                android:id="@+id/Citys"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dp5h"/>
 
             <Button
-                android:id="@+id/btn_SignUp"
+                android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/dp40h"
                 android:layout_marginTop="@dimen/dp20h"
@@ -264,6 +264,7 @@
                 android:drawableLeft="@drawable/ic_baseline_mail_24"
                 android:padding="10dp"
                 android:text="@string/email"
+                android:id="@+id/emaill"
                 android:textColor="@color/white"/>
 
             <Button

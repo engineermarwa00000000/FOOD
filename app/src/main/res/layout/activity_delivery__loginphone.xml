@@ -44,12 +44,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="@dimen/dp8w"
             android:inputType="number"
-            android:id="@+id/number"/>
+            android:id="@+id/Dphonenumber"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="@dimen/dp40h"
-            android:id="@+id/sentotp"
+            android:id="@+id/Sendotp"
             android:layout_marginTop="@dimen/dp30h"
             android:background="@drawable/btn_bg_green"
             android:textColor="@color/white"
@@ -59,7 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/acsignupif"
+            android:id="@+id/Signupif"
             android:layout_marginTop="@dimen/dp13h"
             android:text="@string/dont_have_an_account_sign_up"
             android:textSize="@dimen/sp15"
@@ -118,7 +118,7 @@
         <Button
             android:layout_width="@dimen/dp105w"
             android:layout_height="wrap_content"
-            android:id="@+id/Dbtnemail"
+            android:id="@+id/DbtnEmail"
             android:background="@drawable/btn_red"
             android:drawableLeft="@drawable/white_mail"
             android:layout_gravity="center"

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img6">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp220w"
+        android:layout_height="@dimen/dp350h"
+        android:layout_marginTop="@dimen/dp120h"
+        android:layout_marginStart="@dimen/dp50w"
+        android:layout_marginLeft="@dimen/dp50w"
+        android:background="@drawable/white_bg">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp20h"
+            android:text="@string/enter_otp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp15"
+            android:fontFamily="monospace"
+            android:textStyle="italic"
+            android:layout_marginStart="@dimen/dp60w"/>
+
+        <EditText
+            android:id="@+id/code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp70h"
+            android:hint="@string/otp"
+            android:backgroundTint="@color/orange"
+            android:textAllCaps="true"
+            android:textSize="@dimen/sp15"
+            android:layout_marginTop="@dimen/dp15h"
+            android:layout_below="@id/tv1"
+            android:ems="10"/>
+
+        <Button
+            android:id="@+id/Verify"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40h"
+            android:text="@string/verify"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginTop="@dimen/dp20h"
+            android:layout_below="@id/code"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/Resendotp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp40h"
+            android:text="@string/resend_otp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp18"
+            android:textAllCaps="true"
+            android:backgroundTint="@color/red"
+            android:layout_marginTop="@dimen/dp20h"
+            android:layout_below="@id/Verify"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textColor="#808080"
+            android:layout_marginTop="@dimen/dp15h"
+            android:textAlignment="center"
+            android:layout_below="@id/Resendotp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

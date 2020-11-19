@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name">FOOD</string>
-    <string name="food">FOOD</string>
+    <string name="app_name">FOOD ON</string>
+    <string name="food">FOOD ON</string>
     <string name="sign_with_email">sign with email</string>
     <string name="sign_with_phone">sign with phone</string>
     <string name="or">or</string>
@@ -40,4 +40,6 @@
     <string name="otp">otp</string>
     <string name="verify">VERIFY</string>
     <string name="resend_otp">resend otp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

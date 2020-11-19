@@ -27,10 +27,10 @@
             android:layout_height="wrap_content"
             android:text="@string/food"
             android:layout_marginTop="@dimen/dp140h"
-            android:layout_marginStart="@dimen/dp100w"
-            android:layout_marginLeft="@dimen/dp50w"
+            android:layout_marginStart="@dimen/dp80w"
+            android:layout_marginLeft="@dimen/dp80w"
             android:textColor="@color/red"
-            android:textSize="@dimen/sp50"
+            android:textSize="@dimen/sp40"
             android:textStyle="bold"
             android:textAllCaps="true" />
 
