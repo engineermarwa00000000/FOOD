@@ -4,6 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import android.marwa.foodon.ChefFoodPanel.ChefHomeFragment;
+import android.marwa.foodon.ChefFoodPanel.ChefOrderFragment;
+import android.marwa.foodon.ChefFoodPanel.ChefPendingOrderFragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
@@ -17,9 +20,20 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chef_food_panel__bottom_navigation);
         BottomNavigationView navigationView = findViewById(R.id.chef_bottom_navigation);
-       navigationView.setOnNavigationItemSelectedListener(this);
+        navigationView.setOnNavigationItemSelectedListener(this);
+        String name = getIntent().getStringExtra("PAGE");
+        if (name != null) {
+            if (name.equalsIgnoreCase("Orderpage")) {
+                loadcheffragment(new ChefPendingOrderFragment());
+            } else if (name.equalsIgnoreCase("Confirmpage")) {
+                loadcheffragment(new ChefOrderFragment());
+            } else if (name.equalsIgnoreCase("Deliveredpage")) {
+                loadcheffragment(new ChefOrderFragment());
+            }
+        } else {
+            loadcheffragment(new ChefHomeFragment());
+        }
     }
-
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         Fragment fragment = null;
@@ -36,12 +50,13 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
             case R.id.chefProfile:
                 fragment=new ChefProfileFragment();
                 break;
-            
-        }
-        return loadcheffragment(fragment);
-    }
 
-    private boolean loadcheffragment(Fragment fragment) {
+    }
+            return loadcheffragment(fragment);
+        }
+
+
+        private boolean loadcheffragment(Fragment fragment) {
         if (fragment != null){
             getSupportFragmentManager().beginTransaction().replace(R.id.frame_container,fragment).commit();
            return true;
@@ -49,3 +64,4 @@ public class ChefFoodPanel_BottomNavigation extends AppCompatActivity implements
         return false;
     }
 }
+

@@ -1,4 +1,4 @@
-package android.marwa.foodon;
+package android.marwa.foodon.ChefFoodPanel;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,15 +11,13 @@ import androidx.fragment.app.Fragment;
 
 import com.example.food.R;
 
-public class ChefHomeFragment extends Fragment {
-
+public class ChefPendingOrderFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
-        View v = inflater.inflate(R.layout.fragment_chef_home,null);
-        getActivity().setTitle("Home");
+        View v = inflater.inflate(R.layout.fragment_chef_pendingorders,null);
+        getActivity().setTitle("Pending Orders");
         return v;
     }
 }

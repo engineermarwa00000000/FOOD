@@ -170,8 +170,8 @@ public class ChefRegistration extends AppCompatActivity {
                                                                public void onClick(DialogInterface dialogInterface, int i) {
                                                                    dialogInterface.dismiss();
                                                                   String phonenumber = Cpp.getSelectedCountryCodeWithPlus()+mobile;
-                                                                   Intent b = new Intent(ChefRegistration.this,ChefVerifyPhone.class);
-                                                                   b.putExtra("phonenumber",phonenumber);
+                                                                   Intent b = new Intent(ChefRegistration.this,ChefFoodPanel_BottomNavigation.class);
+                                                              //     b.putExtra("phonenumber",phonenumber);
                                                                    startActivity(b);
 
                                                                }

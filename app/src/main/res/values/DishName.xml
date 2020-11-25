@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="DishName">
+        <item>Pizza</item>
+        <item>Hamburger</item>
+        <item>Fish</item>
+        <item>Grilled Food</item>
+        <item>Salmon Pasta</item>
+        <item>Sweets</item>
+        <item>Specials</item>
+        <item>Platters</item>
+        <item>Salads</item>
+    </string-array>
+</resources>

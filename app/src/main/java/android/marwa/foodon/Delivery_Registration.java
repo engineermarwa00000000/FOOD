@@ -184,7 +184,7 @@ public class Delivery_Registration extends AppCompatActivity {
                                                                     dialog.dismiss();
 
                                                                     String phonenumber = Cpp.getSelectedCountryCodeWithPlus() + mobile;
-                                                                    Intent b = new Intent(Delivery_Registration.this, Delivery_VerifyPhone.class);
+                                                                    Intent b = new Intent(Delivery_Registration.this,DeliveryFoodPanel_BottomNavigation.class);
                                                                     b.putExtra("phonenumber", phonenumber);
                                                                     startActivity(b);
 

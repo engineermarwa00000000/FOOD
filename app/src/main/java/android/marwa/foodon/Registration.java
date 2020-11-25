@@ -180,7 +180,7 @@ import java.util.HashMap;
                                                                      dialog.dismiss();
 
                                                                      String phonenumber = Cpp.getSelectedCountryCodeWithPlus() + mobile;
-                                                                     Intent b = new Intent(Registration.this,VerifyPhone.class);
+                                                                     Intent b = new Intent(Registration.this, CustomerFoodPanel_BottomNavigation.class);
                                                                      b.putExtra("phonenumber",phonenumber);
                                                                      startActivity(b);
 

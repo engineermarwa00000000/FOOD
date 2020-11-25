@@ -52,4 +52,14 @@ dependencies {
   //bottom nav.
     implementation 'com.google.android.material:material:1.1.0'
 
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.3.+'
+
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'pub.devrel:easypermissions:1.2.0'
+
 }

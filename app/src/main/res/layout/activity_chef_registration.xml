@@ -246,39 +246,38 @@
                 android:textColor="#0C0C0C"
                 android:textSize="@dimen/sp18"/>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="@dimen/dp15h"
-                android:orientation="horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
             <Button
+                android:layout_marginTop="@dimen/dp5h"
                 android:id="@+id/email"
-                android:layout_width="@dimen/dp95w"
-                android:layout_height="@dimen/dp40h"
-                android:layout_marginLeft="@dimen/dp15w"
-                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp35h"
                 android:background="@drawable/btn_bg"
                 android:drawableLeft="@drawable/ic_baseline_mail_24"
-                android:padding="10dp"
                 android:text="@string/email"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/dp5w"/>
 
             <Button
-                android:layout_width="@dimen/dp97w"
-                android:layout_height="@dimen/dp40h"
+                android:layout_marginTop="@dimen/dp5h"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp35h"
                 android:layout_marginLeft="@dimen/dp30w"
                 android:layout_marginRight="@dimen/dp20w"
                 android:id="@+id/phone"
                 android:background="@drawable/btn_bg_blue"
                 android:drawableLeft="@drawable/ic_baseline_local_phone_24"
-                android:drawablePadding="5dp"
-                android:padding="8dp"
                 android:text="@string/phone"
-                android:textColor="@color/white"/>
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/dp5w"/>
 
+        </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
+
 
